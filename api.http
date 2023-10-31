@@ -1,0 +1,32 @@
+### get movies
+GET http://localhost:6969/movies
+
+### get movie by id
+GET http://localhost:6969/movies/1
+
+### filter by genre
+GET http://localhost:6969/movies?genre=science
+
+### add movies
+POST http://localhost:6969/movies
+Content-Type: application/json
+
+{
+  "opusk": "opusk",
+  "title": "Guardians of the Galaxy",
+  "director": "James Gunn",
+  "genre": ["Space", "Sci-fi"],
+  "year": 2023
+}
+
+
+### update movie
+PATCH http://localhost:6969/movies/0
+Content-Type: application/json
+
+{
+  "year": 2028
+}
+
+### delete
+DELETE http://localhost:6969/movies/1

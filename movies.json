@@ -1,0 +1,15 @@
+[
+  {
+    "id": "0",
+    "title": "Oppenheimer",
+    "director": "Nolan",
+    "genre": ["science"],
+    "year": 2023
+  }, {
+    "id": "1",
+    "title": "Interestellar",
+    "director": "Nolan",
+    "genre": ["space", "science", "sci-fi"],
+    "year": 2014
+  }
+]
